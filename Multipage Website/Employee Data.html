@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-rows: 100px 500px;
+            row-gap: 10px;
+        }
+        .grid_1{
+            display: flex;
+            flex-direction:row;
+            color:white;
+            justify-content: flex-start;
+            background-color: green;
+            align-items: center;
+            gap :20px;
+        }
+        .grid_2{
+            display: grid;
+            grid-template-columns: 25% 75%;
+           
+        }
+        .grid_3{
+            background-color: whitesmoke;
+           
+        }
+        .grid_4{
+            padding-left: 10px;
+            background-color: white;
+        }
+
+        .grid_4 > img{
+            margin-left: 20%;
+        }
+        .grid_3 >img,p{
+            margin: 20px; 
+            margin-bottom: 10px;        
+        }
+        h1,h3{
+            margin:10px;
+            background-color: lightcoral;
+            color:darkorchid
+        }
+
+        table,th,td{
+            border : 1px solid ;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "container">
+        <div class = "grid_1">
+            <a href="./index.html"><h2>Home</h2></a>
+            <a href="./Employee Data.html"><h2 id="1">Employee Data</h2></a>
+            <a href="./Employee Roles.html"><h2 id="2">Employee Roles</h2></a>
+            <a href="./Employees.html"><h2 id="3">Contact</h2></a>
+            <h2 id="4">Images</h2>
+            <a href="./Feedback form.html"><h2 id="5">Feedback form</h2></a>
+        </div>
+
+        <div class = "grid_2">
+            <div class="grid_3">
+                <img src="./images/FSD logo.jpeg">
+                <p style="text-align: justify; ">
+                    A full stack developer is a software engineer who can handle databases, 
+                    servers, systems engineering, and clients. Depending on the project, 
+                    what customers need may be a mobile stack, 
+                    a Web stack, or a native application stack.
+                </p>
+            </div>
+            <div class="grid_4">
+               <table class="mytable">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="3">Position</th>
+                    <th colspan="3">Department</th>
+                    <th>Salary</th>
+                </tr>
+
+                <tr>
+                    <td>John Doe</td>
+                    <td colspan="3">Manager</td>
+                    <td colspan="3">HR</td>
+                    <td>10000</td>
+                </tr>
+
+                <tr>
+                    <td>Dannie</td>
+                    <td colspan="3">Assitant Manager</td>
+                    <td colspan="3">HR</td>
+                    <td>256000</th>
+                </tr>
+
+                <tr>
+                    <th>Princy</th>
+                    <th colspan="3">Senior Accountant</th>
+                    <th colspan="3">Accounts</th>
+                    <th>31000</th>
+                </tr>
+
+                <tr>
+                    <th>Diana</th>
+                    <th colspan="3">Project Manager</th>
+                    <th colspan="3">Data Analytics</th>
+                    <th>10000</th>
+                </tr>
+
+                <tr>
+                    <th>Eswar</th>
+                    <th colspan="3">Operations Manager</th>
+                    <th colspan="3">Administrator</th>
+                    <th>33000</th>
+                </tr>
+
+                <tr>
+                    <th>Thenmozhi</th>
+                    <th colspan="3">Network Engineer</th>
+                    <th colspan="3">Networking</th>
+                    <th>123000</th>
+                </tr>
+
+                <tr>
+                    <th>Tom</th>
+                    <th colspan="3">Sales Representative</th>
+                    <th colspan="3">Sales</th>
+                    <th>60000</th>
+                </tr>
+
+                <tr>
+                    <th>Bob</th>
+                    <th colspan="3">Graphic Designer</th>
+                    <th colspan="3">Design</th>
+                    <th>650000</th>
+                </tr>
+
+
+
+               </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

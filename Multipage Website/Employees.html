@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <style>
+        .container
+        {
+            display: grid;
+            grid-template-rows: 100px 500px;
+            row-gap: 10px;
+        }
+        .grid_1{
+            display: flex;
+            flex-direction:row;
+            color:white;
+            justify-content: flex-start;
+            background-color: green;
+            align-items: center;
+            gap :20px;
+        }
+        .grid_2{
+            display: grid;
+            grid-template-columns: 25% 75%;
+           
+        }
+        .grid_3{
+            background-color: whitesmoke;
+           
+        }
+        .grid_4{
+            padding-left: 10px;
+            background-color: white;
+        }
+
+        .grid_4 > img{
+            margin-left: 20%;
+        }
+        .grid_3 >img,p{
+            margin: 20px; 
+            margin-bottom: 10px;        
+        }
+        h1,h3{
+            margin:10px;
+            
+        }
+
+        table,th,td{
+            border : 1px solid ;
+        }
+    </style>
+
+</head>
+<body>
+    <div class = "container">
+        <div class = "grid_1">
+            <a href="./index.html"><h2>Home</h2></a>
+            <a href="./Employee Data.html"><h2 id="1">Employee Data</h2></a>
+            <a href="./Employee Roles.html"><h2 id="2">Employee Roles</h2></a>
+            <a href="./Employees.html"><h2 id="3">Contact</h2></a>
+            <h2 id="4">Images</h2>
+            <a href="./Feedback form.html"><h2 id="5">Feedback form</h2></a>
+        </div>
+
+        <div class = "grid_2">
+            <div class="grid_3">
+                <img src="./images/FSD logo.jpeg">
+                <p style="text-align: justify; ">
+                    A full stack developer is a software engineer who can handle databases, 
+                    servers, systems engineering, and clients. Depending on the project, 
+                    what customers need may be a mobile stack, 
+                    a Web stack, or a native application stack.
+                </p>
+            </div>
+            <div class="grid_4">
+              <h1>Employee Contact Details</h1>
+              <h2>Contact information of Employee</h2>
+              <ul>
+                <li><h3>John Doe</h3>
+                    <ul>
+                        <li>Email : john.doe@gmail.com</li>
+                        <li>Fax : +1(555)123-4567</li>
+                        <li>House Phone : +1(555) 987-6543</li>
+                        <li>Mobile Number : +1(555) 876-5432</li>
+                    </ul>
+                </li>
+
+                <li><h3>Princy</h3>
+                    <ul>
+                        <li>Email : princy.smith@gmail.com</li>
+                        <li>Fax : +1(555)234-5678</li>
+                        <li>House Phone : +1(555) 876-5432</li>
+                        <li>Mobile Number : +1(555) 987-6543</li>
+                    </ul>
+                </li>
+
+                <li><h3>Diana</h3>
+                    <ul>
+                        <li>Email : diana.jones@gmail.com</li>
+                        <li>Fax : +1(555)345-6789</li>
+                        <li>House Phone : +1(555) 765-4321</li>
+                        <li>Mobile Number : +1(555) 654-3210</li>
+                    </ul>
+                </li>
+
+                <li><h3>Eswar</h3>
+                    <ul>
+                        <li>Email : eswar.kumar@gmail.com</li>
+                        <li>Fax : +1(555)456-7890</li>
+                        <li>House Phone : +1(555) 321-0987</li>
+                        <li>Mobile Number : +1(555) 890-1234</li>
+                    </ul>
+                </li>
+            
+              </ul>
+              
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      grid-template-rows: 423px 314px 20px;
+    }
+
+    .r1{
+      display:grid;
+      grid-template-columns: 320px 419px;
+    }
+
+    .grid1{
+      background-color: red;
+      border-right: 9px solid black;
+      border-bottom : 9px solid black
+    }
+
+    .grid2{
+      background-color: #F0F1EC;
+      border-bottom : 9px solid black
+    }
+
+    .r2{
+      display:grid;
+      grid-template-columns: 320px 369px 50px;
+    }
+
+    .grid3{
+      background-color: #F0F1EC;
+      border-right: 9px solid black;
+      border-bottom : 9px solid black
+    }
+
+    .grid4{
+      background-color: #F0F1EC;
+      border-bottom : 9px solid black;
+      border-right: 9px solid black;
+    }
+
+
+    .r3{
+      display:grid;
+      grid-template-columns: 320px 206px 163px 50px;
+    }
+
+    .grid7{
+      background-color: #F0F1EC;
+      border-right: 9px solid black;
+    }
+
+    .grid8{
+      background-color: #F9D01E;
+      border-right : 9px solid black;
+    }
+
+    .grid9{
+        background-color: #232629;
+        border-right : 9px solid black;
+    }
+
+    .grid10{
+      background-color: #F0F1EC;
+    }
+
+
+    .sr2{
+      display:grid;
+      background-color: #000;
+      grid-template-rows: 130px auto;
+      row-gap : 20px;
+    }
+
+    .grid5{
+      height: 130px;
+      background-color: #004592;
+    }
+
+    .grid6{
+      background-color:  #F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+      <div class="r1">
+          <div class="grid1"></div>
+          <div class="grid2"></div>
+      </div>
+
+      <div class = "r2">
+        <div class="grid3"></div>
+        <div class="grid4"></div>
+        <div class="sr2">
+          <div class="grid5"></div>
+           <div class="grid6"></div>
+        </div> 
+      </div>
+
+      <div class = "r3">
+        <div class="grid7"></div>
+        <div class="grid8"></div>
+        <div class="grid9"></div>
+        <div class="grid10"></div>
+      </div>
+   </div>
+
+</body>
+
+</html>
